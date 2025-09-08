@@ -6,13 +6,14 @@ nav{
    background-color: blue;
    
 }
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
+    gap: 20px;
     
 }
-li{
+nav li{
     padding: 15px;
 }
 .border {
@@ -34,9 +35,117 @@ li{
     justify-content: space-between;
 }
 header{
-    border-bottom: 10px solid grey;
+    border-bottom: 15px solid #f1f2f3;
+
+}
+main{
+    font-family: Arial,sans-serif;
+    background: #fff;
+    margin: 1cm 5cm;
+    padding: 0;
+    justify-content: space-between;
+
 }
 h1 {
-    font-size: 50px;
+    font-size: 30px;
     color: blue;
+    display: inline-block;
+    border-bottom: 5px solid #004b9b;
+}
+.anh{
+    background-color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 100%;
+}
+.anh-tintuc{
+    background: #fff;
+}
+.nd{
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 10px;
+    color: black;
+    display: flex;
+}
+.anh-tintuc img{
+    width: 400px;
+    height: 300px;
+}
+.noidung{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.anh-tintuc ul li{
+   list-style-type: square;
+}
+.anh-tintuc ul li::marker{
+    color:#004b9b
+}
+.banner2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.demuc{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border: 1px solid gray;
+}
+.hinh_thong_bao img{
+    border: 1px solid gray;
+}
+.hinh_thong_bao{
+    font-size: 25px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.thongbao{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    gap: 50px;
+}
+.ndtb{
+    font-size: 35px;
+}
+sinhvien{
+    font-family: Arial, sans-serif; 
+    background:■#fffi; 
+    margin: 1cm 5cm;
+    justify-content: space-between;
+}
+.ttts{
+    font-size:30px;
+    display: inline-block;
+    color:#004b9b;
+    border-bottom: 5px solid #004b9b
+    margin-bottom: 30px;
+}
+.anh-sv{
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 20px 0px;
+    margin-left: 5cm;
+}
+.sv img{
+    width: 400x;
+    height: 200px;
+}
+.sv-anh{
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
 }
