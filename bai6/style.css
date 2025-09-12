@@ -2,25 +2,38 @@ body{
     display: flex;
     justify-content: center;
     gap: 10px;
+    background: black;
+    color: rgb(236, 222, 222);
     
 }
 box1{
     width: 20%;
-    height: auto;
-    margin-right: 10px;
-    border: 1px solid gray;
+    height: 100%;
+    background-color: rgb(110, 95, 95);
     padding: 10px;
+    border-radius: 7px;
 }
 box1 ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    padding: 5px;
     gap: 20px;
-    margin-left: -25px;
-
 }
 box1 li {
     border: 1px solid gray;
     border-radius: 7px;
     padding: 4px;
+    background-color: rgb(109, 96, 96);
+}
+.the img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.the{
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px;
 }
