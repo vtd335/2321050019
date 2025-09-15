@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+nav{
+    display: flex;
+}
+.t-trai {
+    display: flex;
+    list-style: none;
+    /* gap: 20px; */
+    padding: 0;
+    margin: 0;
+}
+.t-trai img{
+    width: 100px;
+    height: 50px;
+}
+
+.t-trai li {
+    margin-right: 18px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.t-phai{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin-left: 145px;
+
+}
+.t-phai li{
+    margin-left: 18px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+main {
+  width: 80%;
+  background-color: rgb(20, 20, 20);
+  height: 100%;
+  margin: auto;
+}
+footer {
+  width: 80%;
+  margin: auto;
+}
+.mainbanner1 img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.mainbanner2 img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.mainbanner3 img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.cayphim1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 20px 8px 16px 0px;
+}
+.tenphim1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.anh img {
+  width: 100%;
+  height: 85%;
+  border-radius: 10px;
+}
+.moira {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+.moira img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.phimkinhdi {
+  margin-top: 60px;
+}
+.kinhdi {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.kinhdi img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.phimviet {
+  margin-top: 70px;
+}
+.VN {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  height: 300px;
+}
+.VN img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.thongtin {
+  display: flex;
+  margin-top: 80px;
+  border-top: solid rgb(113, 110, 110) 2px;
+  justify-content: space-between;
+}
+.dulieu {
+  margin-top: 50px;
+  border-top: solid rgb(113, 110, 110) 2px;
+}

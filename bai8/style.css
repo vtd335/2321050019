@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(236, 221, 221);
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 80%;
+    width: 50%;;
+}
+.box {
+    background-color: dimgray;
+    padding: 5%;
+}
+body {
+    background-color: rgb(235, 225, 225);
+}
+.title{
+
+}
+.create {
+    justify-content: center;
+}
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+.gender {
+    display: flex;
+    justify-content: space-between;
+}
+.box_gender {
+    display: flex;
+    justify-content: space-between;
+    border: 1;
+}
+.text_box{
+}
+.infor {
+    margin: auto;
+    width: 80%;
+}
