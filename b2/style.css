@@ -1,0 +1,43 @@
+.a{
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    display: flex;
+}
+.a a{
+    border-radius: 5px;
+    width: 70px ;
+    height: 20px;
+    text-align: center;
+    background: grey;
+}
+.bocuc{
+     width: 100%;
+    height: 85vh;
+    display: flex;
+}
+.mucluc{
+    width: 20%;
+}
+.nd{
+    display: flex;
+
+}
+.nd1{
+    width: 40%;
+    height: 30vh;
+    margin-right: 50px;
+
+}
+.nd2{
+    width: 60%;
+    height: 60vh;
+    margin-left: 50px;
+    display: flex;
+}
+.nd21{
+    margin-right: 30px;
+}
+
+
+

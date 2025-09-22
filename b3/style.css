@@ -1,0 +1,43 @@
+.tieude {
+    height: 15vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.tieude a{
+     border-radius: 5px;
+    background: grey;
+    width: 70px;
+    height: 23px;
+    text-align: center;
+}
+.tieude img{
+    width: 40px;
+    height: 40px ;
+}
+.mucluc{
+    display: flex;
+    
+    
+}
+.nd {
+    width: 15%;
+    height: auto;
+}
+.anhtren{
+    display: flex;
+    gap: 300px;
+    height: 150px;
+    
+
+}
+.anh1 {
+    display: flex;
+}
+.anh2 {
+    display: flex;
+}
+.anh345{
+    display: flex;
+}
+    
