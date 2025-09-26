@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let thongTinKhachHang = 
+        {
+            hoTen : "Vũ Trung Đức" ,
+            sĐT : "0968912669" ,
+            trangThai : true,
+        }
+        danhSachSanPham = {
+            sp1 : {
+                 maSanPham : "abc" ,
+                 tenSanPham : "Matcha" ,
+                 soLuong : 1 ,
+                 giaTienMoiSanPham : 40000,
+            },
+            sp2 : {
+                 maSanPham : "bcd" ,
+                 tenSanPham : "Trà sữa" ,
+                 soLuong : 2 ,
+                 giaTienMoiSanPham : 30000,
+            },
+            sp3: {
+                 maSanPham : "xyz" ,
+                 tenSanPham : "Cà phê" ,
+                 soLuong : 3 ,
+                 giaTienMoiSanPham : 10000,
+            },
+        };
+        trangThai = false;
+        diaChi = " Đông Ngạc, Hà Nội" ;
+       let Tong = danhSachSanPham.sp1.soLuong * danhSachSanPham.sp1.giaTienMoiSanPham 
+       + danhSachSanPham.sp2.soLuong * danhSachSanPham.sp2.giaTienMoiSanPham
+       + danhSachSanPham.sp3.soLuong * danhSachSanPham.sp3.giaTienMoiSanPham;
+       document.writeln("Tổng phải thanh toán: " + Tong );
+
+       //STRING 
+       let hoTen = "Vu Trung Duc"
+       document.writeln(hoTen.length);
+
+       //lay chuoi 
+       let myString = "Hello";
+       document.writeln(myString.slice(1, 4));
+
+       //thay the ki tu chuoi
+       document.writeln(myString.replace("Hello","Hi"));
+
+       // .slice() dem tu a den b-1
+       //thay chu hoa thanh chu thuong ,to UpperCase()
+       document.writeln(myString.toLocaleLowerCase());
+
+       //Indexof ("Kí tự cần tìm kiếm") (kh có trả ra -1 )
+       document.writeln(myString.indexOf("e"));
+       
+       // includes ("Kí tự cần tìm kiếm") true/false
+       document.writeln(myString.includes("e"))
+
+       // tách chuỗi thành mảng split
+       document.writeln(myString.split('l'));
+
+       // kiểm tra xem có bắt đầu bằng chữ
+       document.writeln(myString.startsWith('Duc'))
+
+       //rút gọn số (var pi =3,1459 - pi.toFixed(2))
+       
+       //kiểm tra số isNotaNumber
+       // document.writeln(isNaN(10));
+       // lấy ngày 
+        let toDay = new Date ('2023-09-26');
+        document.writeln(toDay);
+
+        //Lấy ra năm: getFullYear
+        //Lấy tháng: 
+        document.writeln(toDay.getDate());
+
+
+        
+    </script>
+</body>
+</html>
