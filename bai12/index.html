@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        //MẢNG
+        //let arr = []
+        //let ten = 'ten' ; 
+        //let thongTin = {
+        //   ten: ten
+        //}
+        // check xem biến có phải array.isarray(tên biến)
+        // document.writeln(Array.isArray(arr));
+        //kiểm tra độ dài mảng 
+        let arr = [1, 2, 3, 4, 'a', 'b', 'c', 2, 3];
+        document.writeln(arr.length)
+        
+        //lấy phần tử thứ n
+        document.writeln(arr[2]);
+
+        //tìm xem phần tử n đứng thứ bao nhiêu
+        document.writeln(arr.indexOf(3));
+
+        //thay đổi giá trị của phần tử n
+        arr[3] = 6 ;
+
+        let a, b, c, d;
+        a = [1,2,3];
+        b = "JavaSript" ;
+        c = [42, "JS"] ;
+        d = a.concat(b, c) ;
+        
+        //biến mảng thành chuỗi bằng join
+        d = d.join("-");
+        document.writeln(d);
+        
+        // xoá phần tử cuối cùng
+        d.pop();
+        document.writeln(d);
+
+        //thêm push()
+        d.push("Đức");
+        document.writeln(d);
+
+        // đảo mảng reserve
+        d.reserve();
+        document.writeln(d)
+
+        // xoá phần tử đầu tiên shift
+        //thêm phần tử vào đầu mảng unshift
+        d.shift();
+        d.unshift(0);
+        // câu lệnh if else
+        let so = 10 ;
+        let soCuoi = parseInt(so[so.length-1]);
+        if(so%2==0){document.writeln("chẵn")}
+        else {document.writeln("lẻ")}
+
+        let now = new Date().getHours;
+        // 5->10: chào buổi sáng
+        // 10->13: chào buổi trưa
+        // 13->17: chào buổi chiều
+        // 17->22: chào buổi tối
+        // còn lại: chào buổi đêm
+
+        if(now>=5 && now<=10) {
+            document.writeln("chào buổi sáng")
+        } else  if (now >=10 && now <13) {
+            document.writeln("chào buổi trưa")
+        } else  if (now >=13 && now <17) {
+            document.writeln("chào buổi chiều")
+        } else  if (now >=17 && now <22) {
+            document.writeln("chào buổi tối")
+        } else document.writeln("chào buổi đêm")
+
+        let diem A = 10 ,B = 10 , 
+
+
+        
+        
+
+    </script>
+</body>
+</html>
