@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tính điểm chữ</h1>
+    <h3>Biết tổng: A*0.6 + B*0.3 + C*0.1</h3>
+    <div>
+        <p>Nhập điểm A</p>
+        <input type="number" id="A" >
+    </div>
+
+    <div>
+        <p>Nhập điểm B </p>
+        <input type="number" id="B" >
+    </div>
+
+    <div>
+        <p>Nhập điểm C </p>
+        <input type="number" id="C" >
+    </div>
+
+    <div>
+        <button onclick="tinhTong()">Tính tổng</button>
+    </div>
+
+    <div>
+        Kết quả : <input type="text" id="ketQua">
+    </div>
+
+    <script>
+        function tinhTong(){
+        let A = parseFloat(document.getElementById('A').value);
+        let B = parseFloat(document.getElementById('B').value);
+        let C = parseFloat(document.getElementById('C').value);
+        let canhBao = "";
+        
+        if (isNaN(A) || A < 0 || A > 10) {
+            canhBao += " Vui lòng nhập điểm A"
+        }
+        
+        if (isNaN(B) || B < 0 || B > 10) {
+            canhBao += " Vui lòng nhập điểm B"
+        }
+
+        if (isNaN(C) || C < 0 || C > 10) {
+            canhBao += " Vui lòng nhập điểm C"
+        }
+
+        if (canhBao) {
+            alert(canhBao);
+        }
+
+        let tong = A*0.6 + B*0.3 + C*0.1
+        if((4<=tong)&&(tong<5)) {
+            tong = "D"
+        }else if((5<=tong)&&(tong<7)) {
+            tong = "C"
+        }else if((7<=tong)&&(tong<8)) {
+            tong = "B"
+        }else if((8<=tong)&&(tong<10)) {
+            tong = "A"
+        }else tong = "F";
+        
+        document.getElementById('ketQua').value = tong;
+        }
+    </script>
+</body>
+</html>
